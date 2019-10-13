@@ -1,0 +1,21 @@
+.screen {
+    background-color: rgb(95, 189, 189);
+    height: 700px;
+    width: 700px;
+}
+
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: .5s;
+}
+
+.board td:hover {
+    background-color: lightsalmon;
+}
+
+.occupied {
+    background-color: gainsboro;
+}

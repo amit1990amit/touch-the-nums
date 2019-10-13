@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Touch the numbers</title>
+</head>
+<body>
+    <button onClick="startGame()">Start Game</button>
+    <h2>timer</h2>
+    <div>
+        <h3>chose your level</h3>
+        <button onClick="changeSizeSmall()">Easy</button>
+        <button onClick="changeSizeMidium()">Medium</button>
+        <button onClick="changeSizeBig()">Hard</button>
+    </div>
+
+    <div>
+        <div>
+            <h3>Game time</h3>
+            <h3 class="time">00:00:00</h3>
+        </div>
+        <div>
+            <h3>Next number</h3>
+            <h3 class="nextNum">1</h3>
+        </div>
+    </div>
+
+
+    <div class="screen">
+        <h2>timer</h2>
+            <table border="1" cellpadding="10">
+                    <tbody class="board"></tbody>
+            </table>
+
+            
+    </div>
+    
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
